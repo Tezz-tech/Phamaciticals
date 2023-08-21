@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bornian Phermaceuticals</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <div class="nav">
+            <div class="left">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                    <h2>Bornian <br> Phermaceuticals</h2>
+                </div>
+                <div class="content">
+                    <a href="index.html">Home</a>
+                    <a href="">Services</a>
+                    <a href="">Contact</a>
+                    <a href="">Blogs</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="index.html"><button class="log">Log Out</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner6">
+        <div class="ba"></div>
+        <div class="ban6">
+
+            <h1>Appointment Form</h1>
+            <div class="main">
+                <h3>Select Physician</h3>
+            <select id="physician">
+                <option value=""></option>
+                <option value="Dr. Musa Buhari (Optisian)">Dr. Musa Buhari (Optisian)</option>
+                <option value="Dr. Precious Azu (Dentist)">Dr. Precious Azu (Dentist)</option>
+                <option value="Dr. Wunisod Atum (Dematologist)">Dr. Wunisod Atum (Dematologist)</option>
+                <option value="Dr. Miracle Obia (Surgeon)">Dr. Miracle Obia (Surgeon)</option>
+                <option value="Dr. Harry Edward (Pharmacist)">Dr. Harry Edward (Pharmacist)</option>
+            </select>
+            <h3>Date</h3>
+            <input type="date" id="dateInput" >
+            <h3>Time</h3>
+            <input type="time" id="timeInput" ><br>
+            <h3>Duration Of Appointment</h3>
+            <input type="text" id="durationInput" placeholder="Please Specify In Hours i.e (1)">
+            <p id="error"></p>
+            <button onclick="saveAppoint()">Procceed</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./js/appoint.js"></script>
+    
+</body>
+</html>

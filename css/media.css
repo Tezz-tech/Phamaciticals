@@ -1,0 +1,317 @@
+@media only screen and (max-width: 1024px) {
+    nav{
+        font-size: 10px;
+        height: 55px;
+    }
+    .nav .left{
+        margin-top: 10px;
+    }
+
+    nav img{
+        height: 25px;
+    }
+
+    nav .btn {
+        display: flex;
+    }
+    .Login{
+        font-size: 13px !important;
+        margin-right: 10px !important;
+    }
+    .Sign{
+        font-size: 12px !important;
+        margin-right: 0px !important;
+    }
+
+    .log{
+        font-size: 12px !important;
+        margin-right: 0px !important;
+    }
+    .banner2 .ban2{
+        margin-left: 400px !important;
+    }
+
+    .banner3 .ban3{
+        margin-left: 400px !important;
+    }
+
+    .banner4{
+        width: 100% !important;
+    }
+
+    .banner4 .ban4{
+        margin-left: 200px !important;        
+    }
+
+    .banner4 .banne{
+        height: 50px;
+    }
+
+    .banner5 .ban5{
+        padding-top: 200px;
+        margin-left: 650px;
+    }
+
+    .banner6 .ban6{
+        margin-left: 400px !important;
+    }
+
+    .banner7{
+        width: 100% !important;
+    }
+
+    .banner7 .ban7{
+        margin-left: 360px !important;        
+    }
+
+    .banner7 .ba{
+        height: 50px;
+    }
+
+    .banner8 .ban8{
+        margin-left: 400px !important;
+    }
+
+    .banner9{
+        width: 100% !important;
+    }
+
+    .banner9 .ban9{
+        margin-left: 360px !important;        
+    }
+
+    .banner9 .ba{
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .banner2 .ban2{
+        margin-left: 60px !important;
+    }
+
+    .banner3 .ban3{
+        margin-left: 60px !important;
+    }
+    .banner5 .ban5{
+        padding-top: 200px;
+        margin-left: 90px;
+    }
+
+    .banner6 .ban6{
+        margin-left: 60px !important;
+    }
+
+    .banner7{
+        width: 100% !important;
+    }
+
+    .banner7 .ban7{
+        margin-left: 150px !important;        
+    }
+
+    .banner7 .ba{
+        height: 50px;
+    }
+
+    .banner8 .ban8{
+        margin-left: 60px !important;
+    }
+
+    .banner9{
+        width: 100% !important;
+    }
+
+    .banner9 .ban9{
+        margin-left: 150px !important;        
+    }
+
+    .banner9 .ba{
+        height: 50px;
+    }
+} 
+
+@media only screen and (max-width: 425px) {
+    .banner1 .ban1{
+        font-size: 16px;
+        margin-left: 20px ;
+        word-spacing: normal !important;
+        letter-spacing: normal !important;
+        padding-top: 90px !important;
+    }
+
+    .banner1 .ban1 h2{
+        font-size: 29px !important;
+    }
+
+    .banner1 .ban1 button{
+        font-size: 15px !important;
+    }
+    .banner2 .ban2{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 720px;
+        width: 300px;
+    }
+
+    .banner3 .ban3{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 380px;
+        width: 300px;
+    }
+
+    .banner4 .ban4{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 600px;
+        width: 300px;
+    }
+    .banner4 .banne{
+        height: 50px;
+    }
+
+    .banner5 .ban5{
+        padding-top: 200px;
+        margin-left: 50px;
+    }
+
+    .banner6 .ban6{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 600px;
+        width: 300px;
+    }
+
+    .banner6 .ba{
+        height: 20px;
+    }
+
+    .banner7 .ban7{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 650px;
+        width: 300px;
+    }
+    .banner7 .ba{
+        height: 30px;
+    }
+
+    .banner7 p{
+        font-size: 17px !important;
+    }
+
+    .banner8 .ban8{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 400px;
+        width: 300px;
+    }
+
+    .banner8 .ba{
+        height: 20px;
+    }
+
+    .banner8 .main{
+        margin-left: 5px;
+    }
+
+    .banner8 .ban8 button{
+        font-size: 15px !important;
+    }
+
+    .banner9 .ban9{
+        margin-left: 35px !important;
+        font-size: 12px !important;
+        height: 400px;
+        width: 300px;
+    }
+    .banner9 .ba{
+        height: 30px;
+    }
+
+    .banner9 p{
+        font-size: 17px !important;
+    }
+    
+
+}
+
+@media only screen and (max-width: 320px){
+    .banner2 .ban2{
+        margin-left: 9px !important;
+        font-size: 12px !important;
+        height: 720px;
+        width: 300px;
+    }
+
+    .banner3 .ban3{
+        margin-left: 9px !important;
+        font-size: 12px !important;
+        height: 380px;
+        width: 300px;
+    }
+
+    .banner4 .ban4{
+        margin-left: 9px !important;
+        font-size: 12px !important;
+        height: 600px;
+        width: 300px;
+    }
+    .banner4 .banne{
+        height: 30px;
+    }
+
+    .banner5 .ban5{
+        padding-top: 200px;
+        margin-left: 10px;
+    }
+    .banner5 .ban5 button{
+        font-size: 20px !important;
+    }
+
+    .banner6 .ban6{
+        margin-left: 9px !important;
+        font-size: 12px !important;
+        height: 600px;
+        width: 300px;
+    }
+
+    .banner7 .ban7{
+        margin-left: 10px !important;
+        height: 600px;
+        width: 300px;
+    }
+    .banner7 .ba{
+        height: 30px;
+    }
+
+    .banner7 p{
+        font-size: 15px !important;
+    }
+
+    .banner8 .ban8{
+        margin-left: 9px !important;
+        font-size: 12px !important;
+        height: 400px;
+        width: 300px;
+    }
+
+    .banner9 .ban9{
+        margin-left: 10px !important;
+        height: 400px;
+        width: 300px;
+    }
+    .banner9 .ba{
+        height: 30px;
+    }
+
+    .banner9 p{
+        font-size: 15px !important;
+    }
+
+    
+}
+
+

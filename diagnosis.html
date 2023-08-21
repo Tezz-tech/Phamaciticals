@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bornian Phermaceuticals</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <div class="left">
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+            <h2>
+              Bornian <br />
+              Phermaceuticals
+            </h2>
+          </div>
+          <div class="content">
+            <a href="index.html">Home</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <a href="">Blogs</a>
+          </div>
+        </div>
+        <div class="right">
+          <a href="index.html"><button class="log">Log Out</button></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner8">
+      <div class="ba"></div>
+      <div class="ban8">
+        <h1>Emergency Diagnosis</h1>
+        <div class="main">
+            <h3>Symptoms</h3>
+            <input type="text" id="symptoms" placeholder="Please Type The Symptoms You're Experiencing"> <br>
+            <p id="error2"></p>
+            <button onclick="getSymptoms()">Get Medical Diagnose / Prescription </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/diagnosis.js"></script>
+  </body>
+</html>

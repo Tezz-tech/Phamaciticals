@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+}
+
+nav .nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav .nav .left {
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+}
+
+nav .nav .left .content{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+nav .nav .left .content a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #949391;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+nav .nav .left .content a:hover{
+    text-shadow: 5px 10px 18px #888888;
+    color: #333333;
+}
+
+nav .nav .left .logo{
+    display: flex;
+    color: #019cfe;
+}
+
+.Login{
+    color: #019cfe;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    border: 2px solid #ffffff;
+    padding: 7px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Login:hover{
+    border: 2px solid #019cfe;
+}
+
+.Sign{
+    background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Sign:hover{
+    background-color: #ffffff;
+    color: #019cfe;
+}
+
+nav .nav .right .btn{
+    margin-top: 7px;
+}
+
+.banner1{
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/a2/fe/3c/a2fe3c7072f88227e177f8335b76ea60.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner1 .ban1{
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+.banner1 .ban1 h1{
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #03588d;
+}
+
+.banner1 .ban1 h2{
+    font-weight: normal;
+    font-size: 55px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #019cfe;
+}
+
+.banner1 p{
+    color: #5e5d5c;
+    margin-bottom: 25px;
+}
+
+.banner1 .ban1 button{
+   background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner1 .ban1 button:hover{
+    background-color: #ffffff;
+    color: #019cfe;
+}
+
+.banner2{
+    height: 800px;
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner2 .ban2{
+    height: 700px;
+    background-color: #9CC3D5FF;
+    width: 600px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 20px;
+    margin-left: 800px;
+    color: #0063B2FF;
+    
+}
+
+.banner2 .ban2 h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    font-size: 38px;
+}
+
+.banner2 .ba{
+    height: 60px;
+}
+
+.ban2 form{
+    margin-left: 60px;
+}
+
+.ban2 h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ban2 input{
+    width: 75%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #0063B2FF;
+    border-radius: 10px;
+}
+
+.ban2 button{
+    background-color: #0063B2FF;
+    border: 2px solid #0063B2FF;
+    color: #9CC3D5FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.ban2 button:hover{
+    background-color: transparent;
+    color: #0063B2FF;
+}
+
+.banner3{
+    height: 800px;
+    background-image: url(../img/1a2a87393f14d80da7216da339411fd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner3 .ban3{
+    height: 400px;
+    background-color: #9CC3D5FF;
+    width: 600px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 20px;
+    margin-left: 800px;
+    color: #0063B2FF;
+    
+}
+#require{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#vallPass{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.banner3 .ban3 h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    font-size: 38px;
+}
+
+.banner3 .bann{
+    height: 150px;
+}
+
+.ban3 form{
+    margin-left: 60px;
+}
+
+.ban3 h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ban3 input{
+    width: 75%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #0063B2FF;
+    border-radius: 10px;
+}
+
+.ban3 button{
+    background-color: #0063B2FF;
+    border: 2px solid #0063B2FF;
+    color: #9CC3D5FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.ban3 button:hover{
+    background-color: transparent;
+    color: #0063B2FF;
+}
+
+.banner4{
+    height: 801px;
+    background-image: url(https://i.pinimg.com/564x/1a/d3/35/1ad335df4b31902b918741a88195ab8b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ban4{
+    height: 500px;
+    background-color: #ffffff;
+    width: 500px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 20px;
+    margin-left: 930px;
+    text-align: center;
+    color: #0063B2FF;
+}
+
+.banner4 .ban4 h1{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.ban4 img{
+    height: 90px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.banner4 .ban4 h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.ban4 p{
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.ban4 button{
+    background-color: #0063B2FF;
+    border: 2px solid #0063B2FF;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.ban4 button:hover{
+    background-color: transparent;
+    color: #0063B2FF;
+}
+
+.banne{
+    height: 170px;
+}
+
+.banner5{
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/50/89/73/508973ffe734c67376691718e39e33a5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner5 .ban5{
+    padding-top: 250px;
+    margin-left: 850px;
+}
+
+.banner5 .ban5 h1{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #03588d;
+}
+
+.banner5 .ban5 h2{
+    font-weight: normal;
+    font-size: 55px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #019cfe;
+}
+
+.banner5 p{
+    color: #5e5d5c;
+    margin-bottom: 25px;
+}
+
+.banner5 .ban5 button{
+   background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner5 .ban5 button:hover{
+    background-color: transparent;
+    color: #019cfe;
+}
+
+.banner5 .ban5 .btn{
+    display: flex;
+}
+
+.log{
+    background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.log:hover{
+    background-color: transparent;
+    color: #019cfe;
+}
+
+.banner6{
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/b6/4f/94/b64f94c029b3f95a81c886aa5a9f4305.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner6 .ban6{
+    margin-left: 850px;
+    height: 550px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.banner6 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #03588d;
+    padding-top: 20px;
+}
+
+.banner6 h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 7px;
+    color: #03588d;
+}
+
+.banner6 .main{
+    margin-left: 50px;
+}
+
+.banner6 input{
+    width: 75%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #0063B2FF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.banner6 select{
+    width: 75%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #0063B2FF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.banner6 p{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.banner6 button{
+    background-color: #0063B2FF;
+    border: 2px solid #0063B2FF;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner6 button:hover{
+    background-color: transparent;
+    color: #0063B2FF;
+}
+
+.banner6 option{
+    font-size: 17px;
+}
+
+
+.banner6 .ba{
+    height: 100px;
+}
+
+.banner7 .ba{
+    height: 150px;
+}
+
+.banner7{
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/ce/00/18/ce0018198c0c303a7311aee23659503e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner7 .ban7{
+    margin-left: 850px;
+    height: 470px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.banner7 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #019cfe;
+    padding-top: 30px;
+}
+
+.banner7 p{
+    font-size: 22px;
+    color: #019cfe;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.banner7 button{
+    background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner7 button:hover{
+    background-color: transparent;
+    color: #019cfe;
+}
+
+.banner8{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/ae/e1/a7/aee1a7fbc45719c3588555796dadee05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner8 .ban8{
+    margin-left: 850px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.banner8 .ba{
+    height: 150px;
+}
+
+.banner8 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #03588d;
+    padding-top: 20px;
+}
+
+.banner8 h3{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #0063B2FF;
+}
+
+.banner8 .main{
+    margin-left: 40px;
+}
+
+.banner8 input{
+    width: 75%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid #0063B2FF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.banner8 button{
+    background-color: #0063B2FF;
+    border: 2px solid #0063B2FF;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner8 button:hover{
+    background-color: transparent;
+    color: #0063B2FF;
+}
+
+.banner8 p{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.banner9 .ba{
+    height: 100px;
+}
+
+.banner9{
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/ea/f4/20/eaf4203b6d8fc7b1cca9ac85bbb40e67.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner9 .ban9{
+    margin-left: 850px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.banner9 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #019cfe;
+    padding-top: 30px;
+}
+
+.banner9 p{
+    font-size: 22px;
+    color: #019cfe;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.banner9 button{
+    background-color: #019cfe;
+    border: 2px solid #019cfe;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+.banner9 button:hover{
+    background-color: transparent;
+    color: #019cfe;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav .content{
+        display: none;
+    }
+}
